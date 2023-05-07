@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 2</title>
+	<script src="getHolidays.js"></script>
+	<script src="getWeather.js"></script>
+	<script src="getAccommodation.js"></script>
+</head>
+<body>
+	<h1>Assignment 2</h1>
+	<label for="country">Enter a country:</label>
+	<input type="text" id="country">
+	<button onclick="getHolidays()">Get Holidays</button>
+	<br><br>
+	<label for="location">Enter your location:</label>
+	<input type="text" id="location">
+	<button onclick="getWeather()">Get Weather</button>
+	<button onclick="getAccommodation()">Get Accommodation</button>
+	<br><br>
+	<div id="output"></div>
+</body>
+</html>
